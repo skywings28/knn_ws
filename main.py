@@ -1,3 +1,5 @@
-from learn_ws import KnnWs
+import learn_ws
 
-knn_ws = KnnWs()
+knn_ws = learn_ws.KnnWs()
+
+bayes_ws = learn_ws.BayesWs()
